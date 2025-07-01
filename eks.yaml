@@ -21,4 +21,4 @@ managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 2
-    spot: true   
+    spot: true   # using spot (rental instances) will get upto 90% discount
